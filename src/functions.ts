@@ -16,6 +16,7 @@ function addAndHandle(n1: number, n2: number, cb: (num: number) => void) {
 
 console.log(printResult(add(55, 33)));
 console.log(combinedValues(55, 33));
+
 addAndHandle(10, 20, (result) => {
   console.log(result);
 });
